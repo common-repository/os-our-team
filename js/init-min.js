@@ -1,0 +1,1 @@
+jQuery(function($){if($(window).width()>480){setTimeout(function(){var height=parseInt($('.left').height());$('.right').height(height-20)},10);setTimeout(function(){var new_height=parseInt($('.os-muse .os-team-box:first-child .front').height());$('.flip-container, .back').height(new_height)},500)}$(".flipper").flip({axis:"y",reverse:false,trigger:"hover",speed:1000})});
